@@ -1,0 +1,39 @@
+# JobFair AI — Production Dependencies
+# Python 3.10 or 3.11 required
+# Install with: pip install -r requirements.txt
+
+# ── Core data & ML ──────────────────────────────────────────────────────────
+pandas==2.2.2
+numpy==1.26.4
+scikit-learn==1.5.1
+xgboost==2.1.1
+joblib==1.4.2
+
+# ── Fairness toolkits ────────────────────────────────────────────────────────
+# Primary: IBM AI Fairness 360
+aif360==0.6.1
+# Fairlearn: fallback + in-processing (ExponentiatedGradient)
+fairlearn==0.10.0
+
+# ── Explainability ───────────────────────────────────────────────────────────
+shap==0.46.0
+
+# ── UI & Visualisation ───────────────────────────────────────────────────────
+streamlit==1.37.0
+plotly==5.23.0
+Pillow==10.4.0
+
+# ── Report generation ────────────────────────────────────────────────────────
+Jinja2==3.1.4
+# WeasyPrint primary (requires GTK/Cairo on Windows — see README)
+weasyprint==62.3
+# ReportLab fallback (pure Python)
+reportlab==4.2.2
+
+# ── Database ─────────────────────────────────────────────────────────────────
+SQLAlchemy==2.0.32
+
+# ── Utilities ────────────────────────────────────────────────────────────────
+requests==2.32.3
+python-dateutil==2.9.0
+scipy==1.14.0

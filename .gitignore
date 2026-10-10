@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Generated reports
+reports/*.html
+reports/*.pdf
+
+# User-uploaded data
+data/custom/
+
+# Dataset caches (optionally tracked — only adult.csv bundled sample is tracked)
+# data/adult/
+# data/german/
+
+# Test artefacts
+.pytest_cache/
+htmlcov/
+.coverage
+coverage.xml
+
+# Linting
+.ruff_cache/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets / env
+.env
+*.env
+
+# JobLib model cache
+*.pkl
+*.joblib
+
+# SQLite DB
+*.db

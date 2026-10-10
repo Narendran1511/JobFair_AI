@@ -1,0 +1,19 @@
+[theme]
+base = "light"
+primaryColor = "#4F46E5"
+backgroundColor = "#F9FAFB"
+secondaryBackgroundColor = "#FFFFFF"
+textColor = "#1F2937"
+font = "sans serif"
+
+[browser]
+gatherUsageStats = false
+
+[server]
+maxUploadSize = 50
+runOnSave = false
+
+[runner]
+# Prevent full re-run when module-level code outside of cached functions runs.
+# This helps with perceived latency on widget interaction.
+fastReruns = true
